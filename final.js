@@ -81,7 +81,7 @@ Escolha uma opção: `));
 
                 for (item of listaAbrigos) {
                
-                    if (item.cidade.includes(cidade1)){
+                    if (item.cidade.toLowerCase().includes(cidade1)){
                         achados.push(item)
                     }
                 };
